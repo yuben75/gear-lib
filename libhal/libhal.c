@@ -37,6 +37,7 @@
 #include <arpa/inet.h>
 #include <linux/if.h>
 #include <linux/wireless.h>
+#include <signal.h>
 
 #define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
 #define is_str_equal(a,b) \
